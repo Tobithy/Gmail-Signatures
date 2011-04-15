@@ -364,7 +364,7 @@ com.BlankCanvas.GmailAPI = {
 							}
 						}
 					} catch(e) { gmailInstance.debug("registerViewChangeCallback()\n\n" + e); }
-				}, 500);
+				}, 5000);
 			} catch(e) {
 				this.debug("registerViewChangeCallback()\n\n" + e);
 			}
